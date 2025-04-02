@@ -1,5 +1,7 @@
 ## Sistema de Gestión de Inventarios en Kotlin
 
+---
+
 ### 1. Introducción
 
 En este informe se presenta el desarrollo de un sistema de gestión de inventarios en Kotlin, aplicado a una aplicación de consola. El sistema permite administrar productos mediante operaciones básicas como agregar, consultar, actualizar y eliminar productos, siguiendo los principios de la Programación Orientada a Objetos (POO). Además, incluye funciones para calcular el precio total de los productos y el IVA correspondiente.
@@ -28,6 +30,8 @@ El sistema se diseñó utilizando el paradigma de Programación Orientada a Obje
 **Clase `Producto`**: Representa cada producto en el inventario, encapsulando sus atributos y proporcionando métodos para acceder y modificar su información. También implementa un método para calcular el precio total del producto.
 
 **Clase `Inventario`**: Gestiona la lista de productos y permite realizar las operaciones CRUD (Crear, Leer, Actualizar y Eliminar). Además, incluye un método para calcular el IVA total de los productos en el inventario.
+
+---
 
 El siguiente diagrama representa la relación entre estas clases:
 
@@ -65,13 +69,13 @@ El siguiente diagrama representa la relación entre estas clases:
 | + calcularIVA()   |
 +------------------+
 
-
+---
 
 #### 3.2. Implementación del Menú
 
 Para la interacción con el usuario, se implementó un menú en la función `main()`, donde el usuario puede seleccionar la operación que desea realizar. Se utilizó `readLine()` para capturar las entradas del usuario y se validaron los datos ingresados para evitar errores.
 
-
+---
 
 ### 4. Decisiones de Diseño
 
@@ -82,7 +86,7 @@ Durante el desarrollo del sistema, se tomaron las siguientes decisiones:
 - **Lista Mutable para el Inventario**: Se utilizó una `mutableListOf` para almacenar los productos, permitiendo agregar y eliminar elementos dinámicamente.
 - **Validaciones en la Entrada de Datos**: Se agregaron controles para evitar errores en el ingreso de información, como IDs negativos o precios inválidos.
 
-
+---
 
 ### 5. Conclusions
 
@@ -90,7 +94,7 @@ El sistema desarrollado cumple con los requisitos establecidos, proporcionando u
 
 Las capturas de pantalla de la ejecución del programa se presentan a continuación para evidenciar su funcionamiento.
 
-
+---
 
 ### 6. Evidencias de ejecución del programa:
 
