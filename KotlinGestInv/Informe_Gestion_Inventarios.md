@@ -36,6 +36,7 @@ El sistema se diseñó utilizando el paradigma de Programación Orientada a Obje
 El siguiente diagrama representa la relación entre estas clases:
 
 
+```plaintext
 +---------------------+
 |      Producto       |
 +---------------------+
