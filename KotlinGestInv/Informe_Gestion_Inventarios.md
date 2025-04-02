@@ -1,4 +1,4 @@
-## Sistema de Gestión de Inventarios en Kotlin
+## Informe sistema de Gestión de Inventarios en Kotlin
 
 ---
 
