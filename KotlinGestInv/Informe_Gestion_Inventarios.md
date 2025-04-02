@@ -91,7 +91,7 @@ Durante el desarrollo del sistema, se tomaron las siguientes decisiones:
 
 ---
 
-### 5. Conclusions
+### 5. Conclusiones
 
 El sistema desarrollado cumple con los requisitos establecidos, proporcionando una herramienta sencilla y funcional para la gestión de inventarios. La aplicación de principios de POO permitió estructurar el código de manera eficiente, facilitando su mantenimiento y posibles mejoras futuras.
 
