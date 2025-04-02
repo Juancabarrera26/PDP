@@ -4,7 +4,7 @@
 
 En este informe se presenta el desarrollo de un sistema de gestión de inventarios en Kotlin, aplicado a una aplicación de consola. El sistema permite administrar productos mediante operaciones básicas como agregar, consultar, actualizar y eliminar productos, siguiendo los principios de la Programación Orientada a Objetos (POO). Además, incluye funciones para calcular el precio total de los productos y el IVA correspondiente.
 
--
+---
 
 ### 2. Objetivo del proyecto
 
@@ -17,7 +17,7 @@ El principal objetivo de este proyecto es desarrollar un sistema funcional que p
 - Cálculo del precio total de un producto en función de su cantidad y precio unitario.
 - Cálculo del IVA total de la venta (19%).
 
--  
+---
 
 ### 3. Desarrollo
 
