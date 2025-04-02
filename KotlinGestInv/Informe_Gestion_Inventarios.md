@@ -71,6 +71,7 @@ El siguiente diagrama representa la relación entre estas clases:
 | + calcularIVA()   |
 +------------------+
 
+```
 ---
 
 #### 3.2. Implementación del Menú
