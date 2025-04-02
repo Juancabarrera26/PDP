@@ -4,7 +4,6 @@
 
 En este informe se presenta el desarrollo de un sistema de gestión de inventarios en Kotlin, aplicado a una aplicación de consola. El sistema permite administrar productos mediante operaciones básicas como agregar, consultar, actualizar y eliminar productos, siguiendo los principios de la Programación Orientada a Objetos (POO). Además, incluye funciones para calcular el precio total de los productos y el IVA correspondiente.
 
-Este documento describe la estructura del código, las decisiones de diseño adoptadas y la funcionalidad implementada. Finalmente, se incluirán capturas de pantalla que evidencian la ejecución del sistema.
 
 
 ### 2. Objetivo del proyecto
@@ -17,7 +16,8 @@ El principal objetivo de este proyecto es desarrollar un sistema funcional que p
 - Eliminación de productos del inventario.
 - Cálculo del precio total de un producto en función de su cantidad y precio unitario.
 - Cálculo del IVA total de la venta (19%).
-- 
+
+  
 
 ### 3. Desarrollo
 
@@ -66,9 +66,11 @@ El siguiente diagrama representa la relación entre estas clases:
 +------------------+
 
 
+
 #### 3.2. Implementación del Menú
 
 Para la interacción con el usuario, se implementó un menú en la función `main()`, donde el usuario puede seleccionar la operación que desea realizar. Se utilizó `readLine()` para capturar las entradas del usuario y se validaron los datos ingresados para evitar errores.
+
 
 
 ### 4. Decisiones de Diseño
@@ -81,11 +83,13 @@ Durante el desarrollo del sistema, se tomaron las siguientes decisiones:
 - **Validaciones en la Entrada de Datos**: Se agregaron controles para evitar errores en el ingreso de información, como IDs negativos o precios inválidos.
 
 
+
 ### 5. Conclusions
 
 El sistema desarrollado cumple con los requisitos establecidos, proporcionando una herramienta sencilla y funcional para la gestión de inventarios. La aplicación de principios de POO permitió estructurar el código de manera eficiente, facilitando su mantenimiento y posibles mejoras futuras.
 
 Las capturas de pantalla de la ejecución del programa se presentan a continuación para evidenciar su funcionamiento.
+
 
 
 ### 6. Evidencias de ejecución del programa:
