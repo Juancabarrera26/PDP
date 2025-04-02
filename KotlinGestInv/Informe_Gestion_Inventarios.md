@@ -36,23 +36,24 @@ El sistema se diseñó utilizando el paradigma de Programación Orientada a Obje
 El siguiente diagrama representa la relación entre estas clases:
 
 
-+------------------+
-|    Producto     |
-+------------------+
-| - id: Int       |
-| - nombre: String|
-| - cantidad: Int |
-| - precio: Double|
-+------------------+
-| + getId()       |
-| + getNombre()   |
-| + getCantidad() |
-| + getPrecio()   |
-| + setNombre()   |
-| + setCantidad() |
-| + setPrecio()   |
++---------------------+
+|      Producto       |
++---------------------+
+| - id: Int          |
+| - nombre: String   |
+| - cantidad: Int    |
+| - precio: Double   |
++---------------------+
+| + getId()          |
+| + getNombre()      |
+| + getCantidad()    |
+| + getPrecio()      |
+| + setNombre()      |
+| + setCantidad()    |
+| + setPrecio()      |
 | + calcularPrecioTotal() |
-+------------------+
++---------------------+
+
 
   
 +------------------+
